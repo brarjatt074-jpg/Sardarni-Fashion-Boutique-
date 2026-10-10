@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pa" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sardarni Fashion Boutique | Faridkot, Punjab - Punjabi Suits & Designer Stitching</title>
+    <meta name="description" content="Sardarni Fashion Boutique in Faridkot, Punjab. Expert stitching for Punjabi suits, Patiala suits, palazzos, and designer boutique outfits. Traditional elegance, modern style.">
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700;800&family=Mukta+Mahee:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        gold: {
+                            100: '#FFF9E6',
+                            300: '#FCE082',
+                            400: '#E6C35C',
+                            500: '#D4AF37',
+                            600: '#AA820A',
+                            700: '#856404',
+                        },
+                        navy: {
+                            800: '#0B192C',
+                            900: '#07101E',
+                            950: '#030810',
+                        },
+                        cream: '#FDFBF7',
+                    },
+                    fontFamily: {
+                        serif: ['Cinzel', 'serif'],
+                        sans: ['Plus Jakarta Sans', 'sans-serif'],
+                        punjabi: ['Mukta Mahee', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body {
+            font-family: 'Plus Jakarta Sans', 'Mukta Mahee', sans-serif;
+            background-color: #FDFBF7;
+            color: #0B192C;
+        }
+        .gold-gradient-text {
+            background: linear-gradient(135deg, #FFE89C 0%, #D4AF37 50%, #997405 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .gold-border-gradient {
+            border-image: linear-gradient(to right, #D4AF37, #FFE89C, #D4AF37) 1;
+        }
+        .gold-bg-gradient {
+            background: linear-gradient(135deg, #D4AF37 0%, #B88E13 100%);
+        }
+        .gold-bg-subtle {
+            background: linear-gradient(135deg, #FFFDF7 0%, #FAF3E0 100%);
+        }
+        /* Custom scrollbar */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #07101E;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #D4AF37;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body class="bg-cream text-navy-800 antialiased selection:bg-gold-500 selection:text-white">
+
+    <!-- Top Bar -->
+    <div class="bg-navy-950 text-gold-300 text-xs sm:text-sm py-2 px-4 border-b border-gold-500/20">
+        <div class="max-w-7xl mx-auto flex flex-wrap justify-between items-center gap-2">
+            <div class="flex items-center space-x-4">
+                <span class="flex items-center gap-1.5"><i class="fa-solid fa-location-dot text-gold-500"></i> Faridkot, Punjab, India</span>
+                <span class="hidden md:inline text-gold-500/40">|</span>
+                <span class="hidden md:inline-flex items-center gap-1.5"><i class="fa-solid fa-clock text-gold-500"></i> Boutique Hours: 10:00 AM - 7:00 PM</span>
+            </div>
+            <div class="flex items-center space-x-4 font-medium ml-auto">
+                <a href="tel:+917087198715" class="hover:text-white transition flex items-center gap-1"><i class="fa-solid fa-phone text-gold-400"></i> +91 70871 98715</a>
+                <span class="text-gold-500/40">|</span>
+                <a href="https://wa.me/917087198715" target="_blank" class="text-green-400 hover:text-green-300 transition flex items-center gap-1 font-semibold"><i class="fa-brands fa-whatsapp text-lg"></i> Direct Order</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Navigation Header -->
+    <header class="sticky top-0 z-40 bg-navy-900/95 backdrop-blur-md border-b border-gold-500/30 text-white shadow-xl">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-20">
+                
+                <!-- Logo & Brand Name -->
+                <a href="#" class="flex items-center gap-3 group">
+                    <div class="relative w-12 h-12 sm:w-14 sm:h-14 rounded-full p-0.5 bg-gradient-to-r from-gold-300 via-gold-500 to-gold-700 shadow-md group-hover:scale-105 transition duration-300 flex items-center justify-center bg-navy-950 text-gold-300 font-serif font-bold text-lg">
+                        SB
+                    </div>
+                    <div>
+                        <span class="block font-serif text-lg sm:text-2xl font-bold tracking-wider text-gold-300 leading-tight">SARDARNI</span>
+                        <span class="block text-xs sm:text-sm font-punjabi text-amber-100 tracking-widest font-semibold">ਸਰਦਾਰਨੀ ਫੈਸ਼ਨ ਬੁਟੀਕ</span>
+                    </div>
+                </a>
+
+                <!-- Desktop Nav Links -->
+                <nav class="hidden md:flex space-x-6 lg:space-x-8 font-medium text-sm lg:text-base">
+                    <a href="#home" class="text-gold-300 hover:text-white transition py-1 border-b-2 border-transparent hover:border-gold-500">Home</a>
+                    <a href="#services" class="text-gray-200 hover:text-gold-300 transition py-1 border-b-2 border-transparent hover:border-gold-500">Stitching Rates</a>
+                    <a href="#collection" class="text-gray-200 hover:text-gold-300 transition py-1 border-b-2 border-transparent hover:border-gold-500">Suits Collection</a>
+                    <a href="#about" class="text-gray-200 hover:text-gold-300 transition py-1 border-b-2 border-transparent hover:border-gold-500">About Us</a>
+                    <a href="#contact" class="text-gray-200 hover:text-gold-300 transition py-1 border-b-2 border-transparent hover:border-gold-500">Contact</a>
+                </nav>
+
+                <!-- Action Button -->
+                <div class="hidden sm:flex items-center space-x-3">
+                    <a href="https://wa.me/917087198715?text=Sat%20Sri%20Akal!%20I%20want%20to%20inquire%20about%20Punjabi%20Suits%20and%20Stitching%20services." target="_blank" class="gold-bg-gradient text-navy-950 px-4 py-2.5 rounded-full font-bold text-sm shadow-md hover:brightness-110 transition flex items-center gap-2">
+                        <i class="fa-brands fa-whatsapp text-lg"></i>
+                        <span>WhatsApp Order</span>
+                    </a>
+                </div>
+
+                <!-- Mobile menu button -->
+                <button id="mobile-menu-btn" class="md:hidden text-gold-400 p-2 focus:outline-none" aria-label="Toggle Navigation">
+                    <i class="fa-solid fa-bars text-2xl" id="menu-icon"></i>
+                </button>
+            </div>
+        </div>
+
+        <!-- Mobile Drawer Menu -->
+        <div id="mobile-menu" class="hidden md:hidden bg-navy-950 border-b border-gold-500/30 px-4 pt-2 pb-6 space-y-3">
+            <a href="#home" class="mobile-nav-link block px-3 py-2 rounded-md text-base font-medium text-gold-300 hover:bg-navy-800">Home / ਮੁੱਖ ਪੰਨਾ</a>
+            <a href="#services" class="mobile-nav-link block px-3 py-2 rounded-md text-base font-medium text-gray-200 hover:bg-navy-800">Stitching Rates / ਸਿਲਾਈ ਦੇ ਰੇਟ</a>
+            <a href="#collection" class="mobile-nav-link block px-3 py-2 rounded-md text-base font-medium text-gray-200 hover:bg-navy-800">Suits Collection / ਸੂਟਾਂ ਦੇ ਡਿਜ਼ਾਈਨ</a>
+            <a href="#about" class="mobile-nav-link block px-3 py-2 rounded-md text-base font-medium text-gray-200 hover:bg-navy-800">About Us / ਸਾਡੇ ਬਾਰੇ</a>
+            <a href="#contact" class="mobile-nav-link block px-3 py-2 rounded-md text-base font-medium text-gray-200 hover:bg-navy-800">Contact Us / ਸੰਪਰਕ ਕਰੋ</a>
+            <a href="https://wa.me/917087198715" target="_blank" class="w-full mt-3 gold-bg-gradient text-navy-950 font-bold py-3 rounded-lg text-center flex items-center justify-center gap-2">
+                <i class="fa-brands fa-whatsapp text-xl"></i> Order on WhatsApp (+91 70871 98715)
+            </a>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="relative bg-navy-900 text-white overflow-hidden py-12 lg:py-20">
+        <div class="absolute inset-0 opacity-10 bg-[radial-gradient(#D4AF37_1px,transparent_1px)] [background-size:16px_16px]"></div>
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
+                
+                <!-- Left Text Column -->
+                <div class="lg:col-span-7 text-center lg:text-left space-y-6">
+                    <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-
