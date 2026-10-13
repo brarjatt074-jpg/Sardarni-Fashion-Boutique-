@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="pa" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sardarni Fashion Boutique | Faridkot, Punjab - Punjabi Suits & Designer Stitching</title>
+    <meta name="description" content="Sardarni Fashion Boutique in Faridkot, Punjab. Expert stitching for Punjabi suits, Patiala suits, palazzos, and designer boutique outfits. Traditional elegance, modern style.">
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700;800&family=Mukta+Mahee:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        gold: {
+                            100: '#FFF9E6',
+                            300: '#FCE082',
+                            400: '#E6C35C',
+                            500: '#D4AF37',
+                            600: '#AA820A',
+                            700: '#856404',
+                        },
+                        navy: {
+                            800: '#0B192C',
+                            900: '#07101E',
+                            950: '#030810',
+                        },
+                        cream: '#FDFBF7',
+                    },
+                    fontFamily: {
+                        serif: ['Cinzel', 'serif'],
+                        sans: ['Plus Jakarta Sans', 'sans-serif'],
+                        punjabi: ['Mukta Mahee', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body {
+            font-family: 'Plus Jakarta Sans', 'Mukta Mahee', sans-serif;
+            background-color: #FDFBF7;
+            color: #0B192C;
+        }
+        .gold-gradient-text {
+            background: linear-gradient(135deg, #FFE89C 0%, #D4AF37 50%, #997405 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .gold-bg-gradient {
+            background: linear-gradient(135deg, #D4AF37 0%, #B88E13 100%);
+        }
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #07101E;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #D4AF37;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body class="bg-cream text-navy-800 antialiased selection:bg-gold-500 selection:text-white">
+
+    <!-- Top Bar -->
+    <div class="bg-navy-950 text-gold-300 text-xs sm:text-sm py-2 px-4 border-b border-gold-500/20">
+        <div class="max-w-7xl mx-auto flex flex-wrap justify-between items-center gap-2">
+            <div class="flex items-center space-x-4">
+                <span class="flex items-center gap-1.5"><i class="fa-solid fa-location-dot text-gold-500"></i> Faridkot, Punjab, India</span>
+                <span class="hidden md:inline text-gold-500/40">|</span>
+                <span class="hidden md:inline-flex items-center gap-1.5"><i class="fa-solid fa-clock text-gold-500"></i> Boutique Hours: 10:00 AM - 7:00 PM</span>
+            </div>
+            <div class="flex items-center space-x-4 font-medium ml-auto">
+                <a href="tel:+917087198715" class="hover:text-white transition flex items-center gap-1"><i class="fa-solid fa-phone text-gold-400"></i> +91 70871 98715</a>
+                <span class="text-gold-500/40">|</span>
+                <a href="https://wa.me/917087198715" target="_blank" class="text-green-400 hover:text-green-300 transition flex items-center gap-1 font-semibold"><i class="fa-brands fa-whatsapp text-lg"></i> Direct Order</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Navigation Header -->
+    <header class="sticky top-0 z-40 bg-navy-900/95 backdrop-blur-md border-b border-gold-500/30 text-white shadow-xl">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-20">
+                
+                <a href="#" class="flex items-center gap-3 group">
+                    <div class="relative w-12 h-12 sm:w-14 sm:h-14 rounded-full p-0.5 bg-gradient-to-r from-gold-300 via-gold-500 to-gold-700 shadow-md flex items-center justify-center bg-navy-950 text-gold-300 font-serif font-bold text-lg">
+                        SB
+                    </div>
+                    <div>
+                        <span class="block font-serif text-lg sm:text-2xl font-bold tracking-wider text-gold-300 leading-tight">SARDARNI</span>
+                        <span class="block text-xs sm:text-sm font-punjabi text-amber-100 tracking-widest font-semibold">ਸਰਦਾਰਨੀ ਫੈਸ਼ਨ ਬੁਟੀਕ</span>
+                    </div>
+                </a>
+
+                <nav class="hidden md:flex space-x-6 lg:space-x-8 font-medium text-sm lg:text-base">
+                    <a href="#home" class="text-gold-300 hover:text-white transition py-1">Home</a>
+                    <a href="#services" class="text-gray-200 hover:text-gold-300 transition py-1">Stitching Rates</a>
+                    <a href="#collection" class="text-gray-200 hover:text-gold-300 transition py-1">Suits Collection</a>
+                    <a href="#videos" class="text-gray-200 hover:text-gold-300 transition py-1">Video Reels</a>
+                    <a href="#about" class="text-gray-200 hover:text-gold-300 transition py-1">About Us</a>
+                    <a href="#contact" class="text-gray-200 hover:text-gold-300 transition py-1">Contact</a>
+                </nav>
+
+                <div class="hidden sm:flex items-center space-x-3">
+                    <a href="https://wa.me/917087198715?text=Sat%20Sri%20Akal!%20I%20want%20to%20inquire%20about%20Punjabi%20Suits." target="_blank" class="gold-bg-gradient text-navy-950 px-4 py-2.5 rounded-full font-bold text-sm shadow-md hover:brightness-110 transition flex items-center gap-2">
+                        <i class="fa-brands fa-whatsapp text-lg"></i>
+                        <span>WhatsApp Order</span>
+                    </a>
+                </div>
+
+                <button id="mobile-menu-btn" class="md:hidden text-gold-400 p-2 focus:outline-none" aria-label="Toggle Navigation">
+                    <i class="fa-solid fa-bars text-2xl" id="menu-icon"></i>
+                </button>
+            </div>
+        </div>
+
+        <div id="mobile-menu" class="hidden md:hidden bg-navy-950 border-b border-gold-500/30 px-4 pt-2 pb-6 space-y-3">
+            <a href="#home" class="mobile-nav-link block px-3 py-2 rounded-md text-base font-medium text-gold-300 hover:bg-navy-800">Home / ਮੁੱਖ ਪੰਨਾ</a>
+            <a href="#services" class="mobile-nav-link block px-3 py-2 rounded-md text-base font-medium text-gray-200 hover:bg-navy-800">Stitching Rates / ਸਿਲਾਈ ਦੇ ਰੇਟ</a>
+            <a href="#collection" class="mobile-nav-link block px-3 py-2 rounded-md text-base font-medium text-gray-200 hover:bg-navy-800">Suits Collection / ਸੂਟਾਂ ਦੇ ਡਿਜ਼ਾਈਨ</a>
+            <a href="#videos" class="mobile-nav-link block px-3 py-2 rounded-md text-base font-medium text-gray-200 hover:bg-navy-800">Video Reels / ਵੀਡੀਓ ਰੀਲਜ਼</a>
+            <a href="#about" class="mobile-nav-link block px-3 py-2 rounded-md text-base font-medium text-gray-200 hover:bg-navy-800">About Us / ਸਾਡੇ ਬਾਰੇ</a>
+            <a href="#contact" class="mobile-nav-link block px-3 py-2 rounded-md text-base font-medium text-gray-200 hover:bg-navy-800">Contact Us / ਸੰਪਰਕ ਕਰੋ</a>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="relative bg-navy-900 text-white overflow-hidden py-12 lg:py-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
+                <div class="lg:col-span-7 text-center lg:text-left space-y-6">
+                    <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full border border-gold-500/40 bg-navy-950/60 text-gold-300 text-xs sm:text-sm font-semibold">
+                        <i class="fa-solid fa-crown text-gold-400"></i> Premium Punjabi Ladies Fashion & Stitching
+                    </div>
+                    <h1 class="font-serif text-3xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight leading-tight">
+                        Welcome to <span class="gold-gradient-text block mt-1">Sardarni Fashion Boutique</span>
+                    </h1>
+                    <p class="font-punjabi text-xl sm:text-2xl text-amber-200 font-semibold leading-relaxed">
+                        ਪੰਜਾਬੀ ਸੂਟਾਂ ਅਤੇ ਡਿਜ਼ਾਈਨਰ ਫੈਸ਼ਨ ਦੀ ਤੁਹਾਡੀ ਆਪਣੀ ਦੁਕਾਨ
+                    </p>
+                    <p class="text-gray-300 text-base sm:text-lg max-w-2xl mx-auto lg:mx-0">
+                        Traditional Elegance. Modern Style. Custom suit stitching, Patiala salwar suits, and designer boutique tailoring in Faridkot, Punjab.
+                    </p>
+                    <div class="pt-4 flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4">
+                        <a href="#collection" class="w-full sm:w-auto text-center px-8 py-3.5 rounded-full gold-bg-gradient text-navy-950 font-bold text-base shadow-lg transition">
+                            Explore Collection / ਸੂਟ ਦੇਖੋ
+                        </a>
+                        <a href="#videos" class="w-full sm:w-auto text-center px-8 py-3.5 rounded-full border-2 border-gold-500 text-gold-300 hover:bg-gold-500 hover:text-navy-950 font-bold text-base transition flex items-center justify-center gap-2">
+                            <i class="fa-solid fa-video text-xl"></i> Watch Video Reels
+                        </a>
+                    </div>
+                </div>
+                <div class="lg:col-span-5 relative">
+                    <div class="p-2 rounded-2xl bg-gradient-to-tr from-gold-500 via-amber-200 to-gold-700 shadow-2xl">
+                        <div class="relative rounded-xl overflow-hidden bg-navy-950 aspect-[3/4] flex flex-col items-center justify-center">
+                            <img src="IMG_2083.jpeg" alt="Featured Outfit" class="w-full h-full object-cover">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SERVICES SECTION -->
+    <section id="services" class="py-16 sm:py-24 bg-cream">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-12">
+                <span class="text-gold-600 font-semibold text-sm uppercase tracking-widest">Transparent Rates / ਸਿਲਾਈ ਦੀ ਦਰ-ਸੂਚੀ</span>
+                <h2 class="font-serif text-3xl sm:text-4xl font-bold text-navy-900 mt-2">Boutique Services & Price List</h2>
+                <p class="font-punjabi text-lg text-navy-800 font-medium mt-1">ਸਾਡੇ ਬੁਟੀਕ ਦੇ ਸਿਲਾਈ ਦੇ ਰੇਟ</p>
+                <div class="w-24 h-1 bg-gold-500 mx-auto mt-4 rounded-full"></div>
+            </div>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div class="bg-white rounded-2xl p-6 shadow-md border border-amber-100 hover:border-gold-500 transition flex flex-col justify-between">
+                    <div>
+                        <div class="flex justify-between items-start mb-4">
+                            <div class="w-12 h-12 rounded-xl bg-gold-100 text-gold-700 flex items-center justify-center text-xl font-bold">
+                                <i class="fa-solid fa-shirt"></i>
+                            </div>
+                            <span class="font-serif font-extrabold text-2xl text-navy-900">₹250</span>
+                        </div>
+                        <h3 class="font-serif text-xl font-bold text-navy-900">Simple Suit</h3>
+                        <p class="font-punjabi text-base text-gold-700 font-bold mb-2">ਸਾਧਾਰਨ ਸੂਟ</p>
+                    </div>
+                    <a href="https://wa.me/917087198715?text=Sat%20Sri%20Akal!%20I%20want%20to%20book%20Simple%20Suit%20Stitching%20(%E2%82%B9250)." target="_blank" class="mt-6 text-xs font-bold text-navy-900 hover:text-gold-600 flex items-center gap-1">
+                        Book Service <i class="fa-solid fa-arrow-right text-xs"></i>
+                    </a>
+                </div>
+                <div class="bg-white rounded-2xl p-6 shadow-md border border-amber-100 hover:border-gold-500 transition flex flex-col justify-between">
+                    <div>
+                        <div class="flex justify-between items-start mb-4">
+                            <div class="w-12 h-12 rounded-xl bg-gold-100 text-gold-700 flex items-center justify-center text-xl font-bold">
+                                <i class="fa-solid fa-lines-leaning"></i>
+                            </div>
+                            <span class="font-serif font-extrabold text-2xl text-navy-900">₹300</span>
+                        </div>
+                        <h3 class="font-serif text-xl font-bold text-navy-900">Piping Suit</h3>
+                        <p class="font-punjabi text-base text-gold-700 font-bold mb-2">ਪਾਈਪਿੰਗ ਵਾਲਾ ਸੂਟ</p>
+                    </div>
+                    <a href="https://wa.me/917087198715?text=Sat%20Sri%20Akal!%20I%20want%20to%20book%20Piping%20Suit%20(%E2%82%B9300)." target="_blank" class="mt-6 text-xs font-bold text-navy-900 hover:text-gold-600 flex items-center gap-1">
+                        Book Service <i class="fa-solid fa-arrow-right text-xs"></i>
+                    </a>
+                </div>
+                <div class="bg-white rounded-2xl p-6 shadow-md border border-amber-100 hover:border-gold-500 transition flex flex-col justify-between">
+                    <div>
+                        <div class="flex justify-between items-start mb-4">
+                            <div class="w-12 h-12 rounded-xl bg-gold-100 text-gold-700 flex items-center justify-center text-xl font-bold">
+                                <i class="fa-solid fa-wand-magic-sparkles"></i>
+                            </div>
+                            <span class="font-serif font-extrabold text-2xl text-navy-900">₹400</span>
+                        </div>
+                        <h3 class="font-serif text-xl font-bold text-navy-900">Lace Wala Suit</h3>
+                        <p class="font-punjabi text-base text-gold-700 font-bold mb-2">ਲੇਸ ਵਾਲਾ ਸੂਟ</p>
+                    </div>
+                    <a href="https://wa.me/917087198715?text=Sat%20Sri%20Akal!%20I%20want%20to%20book%20Lace%20Wala%20Suit%20(%E2%82%B9400)." target="_blank" class="mt-6 text-xs font-bold text-navy-900 hover:text-gold-600 flex items-center gap-1">
+                        Book Service <i class="fa-solid fa-arrow-right text-xs"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- COLLECTION SECTION -->
+    <section id="collection" class="py-16 sm:py-24 bg-white border-t border-b border-amber-100">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex flex-col md:flex-row md:items-end justify-between mb-10">
+                <div>
+                    <span class="text-gold-600 font-semibold text-sm uppercase tracking-widest">Suit Showcase / ਸਾਡੀ ਕਲੈਕਸ਼ਨ</span>
+                    <h2 class="font-serif text-3xl sm:text-4xl font-bold text-navy-900 mt-1">Punjabi Suits & Boutique Outfits</h2>
+                    <p class="font-punjabi text-lg text-gray-600 mt-1">ਤਾਜ਼ਾ ਪੰਜਾਬੀ ਡਿਜ਼ਾਈਨਰ ਸੂਟ ਅਤੇ ਪਲਾਜ਼ੋ ਸੈੱਟ</p>
+                </div>
+            </div>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8" id="product-grid">
+                
+                <!-- NEW ITEM 1: IMG_2238.jpeg -->
+                <div class="bg-cream rounded-2xl overflow-hidden border border-amber-200/80 shadow-md hover:shadow-2xl transition duration-300 flex flex-col justify-between group">
+                    <div class="relative overflow-hidden aspect-[3/4] bg-amber-50 flex flex-col items-center justify-center border-b border-amber-200">
+                        <img src="IMG_2238.jpeg" alt="Pastel Green Floral Embroidered Suit" class="w-full h-full object-cover">
+                        <span class="absolute top-3 left-3 bg-navy-900/90 text-gold-300 text-[11px] font-bold px-3 py-1 rounded-full uppercase tracking-wider">New Arrival</span>
+                        <span class="absolute bottom-3 right-3 bg-navy-950/80 text-white text-xs font-serif px-2.5 py-1 rounded-md">Design Code: SB-NEW1</span>
+                    </div>
+                    <div class="p-5 flex-grow flex flex-col justify-between">
+                        <div>
+                            <h3 class="font-serif text-lg font-bold text-navy-900 group-hover:text-gold-600 transition">Pastel Green Floral Embroidered Suit</h3>
+                            <p class="font-punjabi text-sm text-gray-600 mt-0.5">ਪੇਸਟਲ ਗ੍ਰੀਨ ਫੁੱਲਦਾਰ ਕਢਾਈ ਵਾਲਾ ਸੂਟ ਅਤੇ ਪਲਾਜ਼ੋ</p>
+                            <p class="text-xs text-gray-600 mt-2"><span class="font-semibold text-navy-900">Price:</span> <span class="text-gold-700 font-bold">Contact for Price</span></p>
+                        </div>
+                        <a href="https://wa.me/917087198715?text=Sat%20Sri%20Akal!%20I%20want%20to%20order:%20Pastel%20Green%20Embroidered%20Suit%20(SB-NEW1)." target="_blank" class="mt-5 w-full bg-emerald-600 hover:bg-emerald-700 text-white font-bold py-2.5 rounded-xl text-center text-sm transition flex items-center justify-center gap-2 shadow-sm">
+                            <i class="fa-brands fa-whatsapp text-lg"></i> Order on WhatsApp
+                        </a>
+                    </div>
+                </div>
+
+                <!-- NEW ITEM 2: IMG_2240.jpeg (Corrected Name) -->
+                <div class="bg-cream rounded-2xl overflow-hidden border border-amber-200/80 shadow-md hover:shadow-2xl transition duration-300 flex flex-col justify-between group">
+                    <div class="relative overflow-hidden aspect-[3/4] bg-amber-50 flex flex-col items-center justify-center border-b border-amber-200">
+                        <img src="IMG_2240.jpeg" alt="Light Green Designer Handwork Suit" class="w-full h-full object-cover">
+                        <span class="absolute top-3 left-3 bg-navy-900/90 text-gold-300 text-[11px] font-bold px-3 py-1 rounded-full uppercase tracking-wider">Designer Piece</span>
+                        <span class="absolute bottom-3 right-3 bg-navy-950/80 text-white text-xs font-serif px-2.5 py-1 rounded-md">Design Code: SB-NEW2</span>
+                    </div>
+                    <div class="p-5 flex-grow flex flex-col justify-between">
+                        <div>
+                            <h3 class="font-serif text-lg font-bold text-navy-900 group-hover:text-gold-600 transition">Light Green Designer Handwork Suit</h3>
+                            <p class="font-punjabi text-sm text-gray-600 mt-0.5">ਲਾਈਟ ਗ੍ਰੀਨ ਡਿਜ਼ਾਈਨਰ ਸੂਟ ਖੂਬਸੂਰਤ ਗੁਲਾਬੀ ਕਢਾਈ ਨਾਲ</p>
+                            <p class="text-xs text-gray-600 mt-2"><span class="font-semibold text-navy-900">Price:</span> <span class="text-gold-700 font-bold">Contact for Price</span></p>
+                        </div>
+                        <a href="https://wa.me/917087198715?text=Sat%20Sri%20Akal!%20I%20want%20to%20order:%20Light%20Green%20Designer%20Handwork%20Suit%20(SB-NEW2)." target="_blank" class="mt-5 w-full bg-emerald-600 hover:bg-emerald-700 text-white font-bold py-2.5 rounded-xl text-center text-sm transition flex items-center justify-center gap-2 shadow-sm">
+                            <i class="fa-brands fa-whatsapp text-lg"></i> Order on WhatsApp
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Item 3: IMG_2083 -->
+                <div class="bg-cream rounded-2xl overflow-hidden border border-amber-200/80 shadow-md hover:shadow-2xl transition duration-300 flex flex-col justify-between group">
+                    <div class="relative overflow-hidden aspect-[3/4] bg-amber-50 flex flex-col items-center justify-center border-b border-amber-200">
+                        <img src="IMG_2083.jpeg" alt="Maroon Printed Kurti" class="w-full h-full object-cover">
+                        <span class="absolute top-3 left-3 bg-navy-900/90 text-gold-300 text-[11px] font-bold px-3 py-1 rounded-full uppercase tracking-wider">Farshi Salwar</span>
+                        <span class="absolute bottom-3 right-3 bg-navy-950/80 text-white text-xs font-serif px-2.5 py-1 rounded-md">Design Code: SB-01</span>
+                    </div>
+                    <div class="p-5 flex-grow flex flex-col justify-between">
+                        <div>
+                            <h3 class="font-serif text-lg font-bold text-navy-900 group-hover:text-gold-600 transition">Maroon Printed Kurti with Farshi Salwar</h3>
+                            <p class="font-punjabi text-sm text-gray-600 mt-0.5">ਮਾਰੂਨ ਪ੍ਰਿੰਟਿਡ ਕੁਰਤੀ ਨਾਲ ਚਿਕਨਕਾਰੀ ਫਰਸ਼ੀ ਸਲਵਾਰ</p>
+                        </div>
+                        <a href="https://wa.me/917087198715?text=Sat%20Sri%20Akal!%20I%20am%20interested%20in%20ordering:%20Maroon%20Printed%20Kurti%20(SB-01)." target="_blank" class="mt-5 w-full bg-emerald-600 hover:bg-emerald-700 text-white font-bold py-2.5 rounded-xl text-center text-sm transition flex items-center justify-center gap-2 shadow-sm">
+                            <i class="fa-brands fa-whatsapp text-lg"></i> Order on WhatsApp
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Item 4: IMG_2084 -->
+                <div class="bg-cream rounded-2xl overflow-hidden border border-amber-200/80 shadow-md hover:shadow-2xl transition duration-300 flex flex-col justify-between group">
+                    <div class="relative overflow-hidden aspect-[3/4] bg-amber-50 flex flex-col items-center justify-center border-b border-amber-200">
+                        <img src="IMG_2084.jpeg" alt="Pink Floral Kurti" class="w-full h-full object-cover">
+                        <span class="absolute top-3 left-3 bg-navy-900/90 text-gold-300 text-[11px] font-bold px-3 py-1 rounded-full uppercase tracking-wider">Palazzo Suit</span>
+                        <span class="absolute bottom-3 right-3 bg-navy-950/80 text-white text-xs font-serif px-2.5 py-1 rounded-md">Design Code: SB-02</span>
+                    </div>
+                    <div class="p-5 flex-grow flex flex-col justify-between">
+                        <div>
+                            <h3 class="font-serif text-lg font-bold text-navy-900 group-hover:text-gold-600 transition">Pink Floral Kurti with White Lace Palazzo</h3>
+                            <p class="font-punjabi text-sm text-gray-600 mt-0.5">ਗੁਲਾਬੀ ਫੁੱਲਦਾਰ ਕੁਰਤੀ ਨਾਲ ਚਿੱਟੇ ਲੇਸ ਵਾਲਾ ਪਲਾਜ਼ੋ</p>
+                        </div>
+                        <a href="https://wa.me/917087198715?text=Sat%20Sri%20Akal!%20I%20am%20interested%20in%20ordering:%20Pink%20Floral%20Kurti%20(SB-02)." target="_blank" class="mt-5 w-full bg-emerald-600 hover:bg-emerald-700 text-white font-bold py-2.5 rounded-xl text-center text-sm transition flex items-center justify-center gap-2 shadow-sm">
+                            <i class="fa-brands fa-whatsapp text-lg"></i> Order on WhatsApp
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Item 5: IMG_2085 -->
+                <div class="bg-cream rounded-2xl overflow-hidden border border-amber-200/80 shadow-md hover:shadow-2xl transition duration-300 flex flex-col justify-between group">
+                    <div class="relative overflow-hidden aspect-[3/4] bg-amber-50 flex flex-col items-center justify-center border-b border-amber-200">
+                        <img src="IMG_2085.jpeg" alt="Rust Orange Leaf Print Kurti" class="w-full h-full object-cover">
+                        <span class="absolute top-3 left-3 bg-navy-900/90 text-gold-300 text-[11px] font-bold px-3 py-1 rounded-full uppercase tracking-wider">Designer Pant Suit</span>
+                        <span class="absolute bottom-3 right-3 bg-navy-950/80 text-white text-xs font-serif px-2.5 py-1 rounded-md">Design Code: SB-03</span>
+                    </div>
+                    <div class="p-5 flex-grow flex flex-col justify-between">
+                        <div>
+                            <h3 class="font-serif text-lg font-bold text-navy-900 group-hover:text-gold-600 transition">Rust Orange Leaf Print Kurti with White Cutwork Pants</h3>
+                            <p class="font-punjabi text-sm text-gray-600 mt-0.5">ਰਸਟ ਓਰੇਂਜ ਲੀਫ਼ ਪ੍ਰਿੰਟ ਕੁਰਤੀ ਨਾਲ ਚਿੱਟੀ ਕੱਟਵਰਕ ਪੈਂਟ</p>
+                        </div>
+                        <a href="https://wa.me/917087198715?text=Sat%20Sri%20Akal!%20I%20am%20interested%20in%20ordering:%20Rust%20Orange%20Leaf%20Print%20Kurti%20(SB-03)." target="_blank" class="mt-5 w-full bg-emerald-600 hover:bg-emerald-700 text-white font-bold py-2.5 rounded-xl text-center text-sm transition flex items-center justify-center gap-2 shadow-sm">
+                            <i class="fa-brands fa-whatsapp text-lg"></i> Order on WhatsApp
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Item 6: IMG_2086 -->
+                <div class="bg-cream rounded-2xl overflow-hidden border border-amber-200/80 shadow-md hover:shadow-2xl transition duration-300 flex flex-col justify-between group">
+                    <div class="relative overflow-hidden aspect-[3/4] bg-amber-50 flex flex-col items-center justify-center border-b border-amber-200">
+                        <img src="IMG_2086.jpeg" alt="Multi Floral Printed Kurti" class="w-full h-full object-cover">
+                        <span class="absolute top-3 left-3 bg-navy-900/90 text-gold-300 text-[11px] font-bold px-3 py-1 rounded-full uppercase tracking-wider">Designer Piece</span>
+                        <span class="absolute bottom-3 right-3 bg-navy-950/80 text-white text-xs font-serif px-2.5 py-1 rounded-md">Design Code: SB-04</span>
+                    </div>
+                    <div class="p-5 flex-grow flex flex-col justify-between">
+                        <div>
+                            <h3 class="font-serif text-lg font-bold text-navy-900 group-hover:text-gold-600 transition">Multi Floral Printed Kurti with Lace Pants & Dupatta</h3>
+                            <p class="font-punjabi text-sm text-gray-600 mt-0.5">ਮਲਟੀ-ਕਲਰ ਫੁੱਲਦਾਰ ਕੁਰਤੀ ਨਾਲ ਮੈਚਿੰਗ ਦੁਪੱਟਾ ਅਤੇ ਪੈਂਟ</p>
+                        </div>
+                        <a href="https://wa.me/917087198715?text=Sat%20Sri%20Akal!%20I%20am%20interested%20in%20ordering:%20Multi%20Floral%20Printed%20Kurti%20(SB-04)." target="_blank" class="mt-5 w-full bg-emerald-600 hover:bg-emerald-700 text-white font-bold py-2.5 rounded-xl text-center text-sm transition flex items-center justify-center gap-2 shadow-sm">
+                            <i class="fa-brands fa-whatsapp text-lg"></i> Order on WhatsApp
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Item 7: IMG_2087 -->
+                <div class="bg-cream rounded-2xl overflow-hidden border border-amber-200/80 shadow-md hover:shadow-2xl transition duration-300 flex flex-col justify-between group">
+                    <div class="relative overflow-hidden aspect-[3/4] bg-amber-50 flex flex-col items-center justify-center border-b border-amber-200">
+                        <img src="IMG_2087.jpeg" alt="Lime Green Floral Kurti" class="w-full h-full object-cover">
+                        <span class="absolute top-3 left-3 bg-navy-900/90 text-gold-300 text-[11px] font-bold px-3 py-1 rounded-full uppercase tracking-wider">Punjabi Suit</span>
+                        <span class="absolute bottom-3 right-3 bg-navy-950/80 text-white text-xs font-serif px-2.5 py-1 rounded-md">Design Code: SB-05</span>
+                    </div>
+                    <div class="p-5 flex-grow flex flex-col justify-between">
+                        <div>
+                            <h3 class="font-serif text-lg font-bold text-navy-900 group-hover:text-gold-600 transition">Lime Green Floral Kurti with Cutwork Salwar</h3>
+                            <p class="font-punjabi text-sm text-gray-600 mt-0.5">ਫੁੱਲਦਾਰ ਕੁਰਤੀ ਨਾਲ ਲਾਈਮ ਗ੍ਰੀਨ ਕੱਟਵਰਕ ਸਲਵਾਰ</p>
+                        </div>
+                        <a href="https://wa.me/917087198715?text=Sat%20Sri%20Akal!%20I%20am%20interested%20in%20ordering:%20Lime%20Green%20Floral%20Kurti%20(SB-05)." target="_blank" class="mt-5 w-full bg-emerald-600 hover:bg-emerald-700 text-white font-bold py-2.5 rounded-xl text-center text-sm transition flex items-center justify-center gap-2 shadow-sm">
+                            <i class="fa-brands fa-whatsapp text-lg"></i> Order on WhatsApp
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Item 8: IMG_2088 -->
+                <div class="bg-cream rounded-2xl overflow-hidden border border-amber-200/80 shadow-md hover:shadow-2xl transition duration-300 flex flex-col justify-between group">
+                    <div class="relative overflow-hidden aspect-[3/4] bg-amber-50 flex flex-col items-center justify-center border-b border-amber-200">
+                        <img src="IMG_2088.jpeg" alt="Lime Green Patiala Suit" class="w-full h-full object-cover">
+                        <span class="absolute top-3 left-3 bg-navy-900/90 text-gold-300 text-[11px] font-bold px-3 py-1 rounded-full uppercase tracking-wider">Patiala Suit</span>
+                        <span class="absolute bottom-3 right-3 bg-navy-950/80 text-white text-xs font-serif px-2.5 py-1 rounded-md">Design Code: SB-06</span>
+                    </div>
+                    <div class="p-5 flex-grow flex flex-col justify-between">
+                        <div>
+                            <h3 class="font-serif text-lg font-bold text-navy-900 group-hover:text-gold-600 transition">Lime Green Floral Patiala Suit with Matching Dupatta</h3>
+                            <p class="font-punjabi text-sm text-gray-600 mt-0.5">ਲਾਈਮ ਗ੍ਰੀਨ ਪੰਜਾਬੀ ਪਟਿਆਲਾ ਸੂਟ ਨਾਲ ਮੈਚਿੰਗ ਦੁਪੱਟਾ</p>
+                        </div>
+                        <a href="https://wa.me/917087198715?text=Sat%20Sri%20Akal!%20I%20am%20interested%20in%20ordering:%20Lime%20Green%20Floral%20Patiala%20Suit%20(SB-06)." target="_blank" class="mt-5 w-full bg-emerald-600 hover:bg-emerald-700 text-white font-bold py-2.5 rounded-xl text-center text-sm transition flex items-center justify-center gap-2 shadow-sm">
+                            <i class="fa-brands fa-whatsapp text-lg"></i> Order on WhatsApp
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- VIDEO REELS SECTION -->
+    <section id="videos" class="py-16 sm:py-24 bg-navy-950 text-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-12">
+                <span class="text-gold-400 font-semibold text-sm uppercase tracking-widest">Video Showcase / ਵੀਡੀਓ ਰੀਲਜ਼</span>
+                <h2 class="font-serif text-3xl sm:text-4xl font-bold text-white mt-1">Boutique Suit Reels with Music</h2>
+                <p class="font-punjabi text-lg text-amber-200 mt-1">ਗਾਣਿਆਂ ਵਾਲੀਆਂ ਸਪੈਸ਼ਲ ਵੀਡੀਓਜ਼</p>
+                <div class="w-24 h-1 bg-gold-500 mx-auto mt-4 rounded-full"></div>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="bg-navy-900 p-4 rounded-2xl border border-gold-500/30 shadow-xl flex flex-col items-center">
+                    <div class="w-full aspect-[9/16] rounded-xl overflow-hidden bg-black mb-4">
+                        <video controls class="w-full h-full object-cover">
+                            <source src="df2583e3-af4a-432b-ab01-caa1d6c890f1.mov" type="video/mp4">
+                        </video>
+                    </div>
+                    <h3 class="font-serif text-gold-300 font-bold text-center">Sardarni Special Suit Reel 1</h3>
+                </div>
+                <div class="bg-navy-900 p-4 rounded-2xl border border-gold-500/30 shadow-xl flex flex-col items-center">
+                    <div class="w-full aspect-[9/16] rounded-xl overflow-hidden bg-black mb-4">
+                        <video controls class="w-full h-full object-cover">
+                            <source src="36d954db-a12c-4b44-a147-20462ce77280.mov" type="video/mp4">
+                        </video>
+                    </div>
+                    <h3 class="font-serif text-gold-300 font-bold text-center">Boutique Collection Reel 2</h3>
+                </div>
+                <div class="bg-navy-900 p-4 rounded-2xl border border-gold-500/30 shadow-xl flex flex-col items-center">
+                    <div class="w-full aspect-[9/16] rounded-xl overflow-hidden bg-black mb-4">
+                        <video controls class="w-full h-full object-cover">
+                            <source src="990d3e79-b8ae-45fb-8352-c212c1c24429.mov" type="video/mp4">
+                        </video>
+                    </div>
+                    <h3 class="font-serif text-gold-300 font-bold text-center">Punjabi Suit Showcase Reel 3</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section id="contact" class="py-16 sm:py-24 bg-navy-900 text-white relative text-center">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <span class="text-gold-400 font-semibold text-sm uppercase tracking-widest">Get In Touch / ਸੰਪਰਕ ਕਰੋ</span>
+            <h2 class="font-serif text-3xl sm:text-4xl font-bold text-white mt-1">Contact Sardarni Fashion Boutique</h2>
+            <p class="font-punjabi text-lg text-amber-200 mt-1">ਫਰੀਦਕੋਟ, ਪੰਜਾਬ | +91 70871 98715</p>
+            <div class="mt-6">
+                <a href="https://wa.me/917087198715" target="_blank" class="px-6 py-3 bg-emerald-600 hover:bg-emerald-700 text-white font-bold rounded-xl inline-flex items-center gap-2 shadow-lg">
+                    <i class="fa-brands fa-whatsapp text-xl"></i> Chat on WhatsApp
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-navy-950 text-gray-400 text-xs sm:text-sm border-t border-gold-500/30 py-8 text-center">
+        <p>© 2026 Sardarni Fashion Boutique, Faridkot. All Rights Reserved.</p>
+        <p class="font-punjabi text-amber-200/60 mt-1">ਸਰਦਾਰਨੀ ਫੈਸ਼ਨ ਬੁਟੀਕ, ਫਰੀਦਕੋਟ (ਪੰਜਾਬ)</p>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const menuBtn = document.getElementById('mobile-menu-btn');
+            const mobileMenu = document.getElementById('mobile-menu');
+            const menuIcon = document.getElementById('menu-icon');
+
+            menuBtn.addEventListener('click', function() {
+                mobileMenu.classList.toggle('hidden');
+                if (mobileMenu.classList.contains('hidden')) {
+                    menuIcon.classList.remove('fa-xmark');
+                    menuIcon.classList.add('fa-bars');
+                } else {
+                    menuIcon.classList.remove('fa-bars');
+                    menuIcon.classList.add('fa-xmark');
+                }
+            });
+        });
+    </script>
+</body>
+</html>
